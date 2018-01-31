@@ -1,0 +1,35 @@
+var name = "Gurpreet"
+
+
+
+print("Name : \(name) written normal")
+
+
+
+for i in stride(from:0, to: name.count , by: 1)
+
+
+{
+   
+ 
+print(name[name.index(name.startIndex, offsetBy: i)])
+
+
+}
+
+
+
+print("Name : \(name) written in reverse")
+
+
+
+for i in stride(from:0, to: name.count , by: 1)
+
+
+{ 
+ 
+   
+print(name[name.index(name.endIndex, offsetBy: (-i - 1))])
+
+
+}
