@@ -1,0 +1,5 @@
+Difference between TUPLE and DICTIONARY 
+
+Tuple can contain return multiple values of different datatypes whereas,
+in dictionary we can only store values of one datatype but can have any number of pairs.
+Dictionary requires key but in tuple no need of any key.
