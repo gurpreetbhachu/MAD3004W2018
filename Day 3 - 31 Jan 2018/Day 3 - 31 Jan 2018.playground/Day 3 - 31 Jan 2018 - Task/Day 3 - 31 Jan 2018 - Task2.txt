@@ -6,10 +6,10 @@ address["area"] = "North York" as AnyObject
 address["postal code"] = "M1H1Y1" as AnyObject
 
 var person = [String:AnyObject]()
-person["firstname"] = "Dilpreet" as AnyObject
+person["firstname"] = "Gurpreet" as AnyObject
 person["lastname"] = "Singh" as AnyObject
 person["age"] = 23 as AnyObject
-person["address"] = details as AnyObject
+person["address"] = address as AnyObject
 person["total amount"] = 2000 as AnyObject
 
 
