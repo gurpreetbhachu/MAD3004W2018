@@ -17,18 +17,18 @@ person["total amount"] = 2000 as AnyObject
 //Factorial of a number
 
 
-func factorial(of num: Int) -> Int 
+func factorial(of number: Int) -> Int 
 {
-    if num == 1
+    if number == 1
     	{
         	return 1
     	}
     else 
 	{
-        	return num * factorial(of:num - 1)
+        	return number * factorial(of:number - 1)
     	}
 }
 
-let f = 6
-let result = factorial(of: f)
-print("The factorial of \(f) is \(result)")
+let f = 8
+let Fact_result = factorial(of: f)
+print("The factorial of \(f) is \(Fact_result)")
